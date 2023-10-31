@@ -1,4 +1,4 @@
-catalogSource: servicemesh-v2.4.4
+catalogSource: redhat-operator-index
 catalogSourceNamespace: openshift-marketplace
 
 subscriptions:
