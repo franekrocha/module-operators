@@ -4,7 +4,10 @@ catalogSourceNamespace: openshift-marketplace
 subscriptions:
   kiali-ossm:
     channel: stable
+    namespace: openshift-operators
   servicemeshoperator:
     channel: stable
+    namespace: openshift-operators
   jaeger:
     channel: stable
+    namespace: openshift-operators
