@@ -1,4 +1,4 @@
-catalogSource: redhat-servicemesh-v2.2.3
+catalogSource: servicemesh-v2.4.4
 catalogSourceNamespace: openshift-marketplace
 
 subscriptions:
