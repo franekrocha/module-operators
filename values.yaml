@@ -8,6 +8,6 @@ subscriptions:
   servicemeshoperator:
     channel: stable
     namespace: openshift-operators
-  jaeger:
+  jaeger-product:
     channel: stable
     namespace: openshift-operators
