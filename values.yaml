@@ -1,0 +1,12 @@
+sourceNamespace: openshift-marketplace
+
+subscriptions:
+  kiali-ossm:
+    channel: stable
+    catalogSource: redhat-servicemesh-v2.2.3
+  servicemeshoperator:
+    channel: stable
+    catalogSource: redhat-servicemesh-v2.2.3
+  jaeger:
+    channel: stable
+    catalogSource: redhat-servicemesh-v2.2.3
