@@ -4,15 +4,15 @@ subscriptions:
   kiali-ossm:
     channel: stable
     namespace: openshift-operators
-    catalogSource: paas-servicemesh-v2-4-4
+    catalogSource: paas-servicemesh-v2-2-3
   servicemeshoperator:
     channel: stable
     namespace: openshift-operators
-    catalogSource: paas-servicemesh-v2-4-4
+    catalogSource: paas-servicemesh-v2-2-3
   jaeger-product:
     channel: stable
     namespace: openshift-operators
-    catalogSource: paas-servicemesh-v2-4-4
+    catalogSource: paas-servicemesh-v2-2-3
   redhat-oadp-operator:
     channel: stable-1.2
     namespace: openshift-adp
