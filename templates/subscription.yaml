@@ -9,6 +9,6 @@ spec:
   channel: {{ $val.channel }}
   installPlanApproval: Automatic
   name: {{ $key }}
-  source: {{ $.Values.catalogSource }}
+  source: {{ $val.catalogSource }}
   sourceNamespace: {{ $.Values.catalogSourceNamespace }}
 {{- end }}
