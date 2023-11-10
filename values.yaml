@@ -4,7 +4,6 @@ catalogSourceNamespace: openshift-marketplace
 catalogs:
 
   servicemesh-v2-2-3:
-    sha: "sha256:83f3e35b18df9b7d7212ac9170ca75250b332104c7bb3ad27d91424977fc87ac"
     packages:
       servicemeshoperator:
         channel: stable
