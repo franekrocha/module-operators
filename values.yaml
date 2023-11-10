@@ -1,23 +1,24 @@
+index: artifactory.apps.mirror.sandbox658.opentlc.com/paas-servicemesh-v2-2-3/redhat/redhat-operator-index
 catalogSourceNamespace: openshift-marketplace
 
-subscriptions:
+catalogs:
 
-  kiali-ossm:
-    channel: stable
-    namespace: openshift-operators
-    catalogSource: paas-servicemesh-v2-2-3
-    
-  servicemeshoperator:
-    channel: stable
-    namespace: openshift-operators
-    catalogSource: paas-servicemesh-v2-2-3
-    
-  jaeger-product:
-    channel: stable
-    namespace: openshift-operators
-    catalogSource: paas-servicemesh-v2-2-3
-    
-  redhat-oadp-operator:
-    channel: stable-1.2
-    namespace: openshift-adp
-    catalogSource: paas-oadp-v1-2-3
+  servicemesh-v2-2-3:
+    sha: "sha256:83f3e35b18df9b7d7212ac9170ca75250b332104c7bb3ad27d91424977fc87ac"
+    packages:
+      kiali-ossm:
+        channel: stable
+        namespace: openshift-operators
+      servicemeshoperator:
+        channel: stable
+        namespace: openshift-operators
+      jaeger-product:
+        channel: stable
+        namespace: openshift-operators
+
+#  oadp-v1-2-3:
+#    sha: ""
+#    packages:
+#      redhat-oadp-operator:
+#        channel: stable-1.2
+#        namespace: openshift-adp
