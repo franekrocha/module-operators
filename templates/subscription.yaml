@@ -1,14 +1,16 @@
-{{- range $key, $val := $.Values.subscriptions }}
+{{- range $catalog, $catval := $.Values.catalogs }}
+{{- range $package, $pacval := $catval.packages }}
 ---
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
-  name: {{ $key }}
-  namespace: {{ $val.namespace }}
+  name: {{ $package }}
+  namespace: {{ $pacval.namespace }}
 spec:
-  channel: {{ $val.channel }}
+  channel: {{ $pacval.channel }}
   installPlanApproval: Automatic
-  name: {{ $key }}
-  source: {{ $val.catalogSource }}
+  name: {{ $package }}
+  source: {{ $catalog }}
   sourceNamespace: {{ $.Values.catalogSourceNamespace }}
+{{- end }}
 {{- end }}
