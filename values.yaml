@@ -9,12 +9,12 @@ catalogs:
       kiali-ossm:
         channel: stable
         namespace: openshift-operators
-      servicemeshoperator:
-        channel: stable
-        namespace: openshift-operators
-      jaeger-product:
-        channel: stable
-        namespace: openshift-operators
+#      servicemeshoperator:
+#        channel: stable
+#        namespace: openshift-operators
+#      jaeger-product:
+#        channel: stable
+#        namespace: openshift-operators
 
 #  oadp-v1-2-3:
 #    sha: ""
