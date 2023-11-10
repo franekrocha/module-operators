@@ -6,10 +6,11 @@ catalogs:
   servicemesh-v2-2-3:
     sha: "sha256:83f3e35b18df9b7d7212ac9170ca75250b332104c7bb3ad27d91424977fc87ac"
     packages:
-      kiali-ossm:
+      servicemeshoperator:
         channel: stable
         namespace: openshift-operators
-#      servicemeshoperator:
+
+#      kiali-ossm:
 #        channel: stable
 #        namespace: openshift-operators
 #      jaeger-product:
