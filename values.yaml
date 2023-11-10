@@ -1,5 +1,6 @@
-index: artifactory.apps.mirror.sandbox658.opentlc.com/paas-servicemesh-v2-2-3/redhat/redhat-operator-index
-catalogSourceNamespace: openshift-marketplace
+version: v4.12
+path: artifactory.apps.mirror.sandbox658.opentlc.com/paas-servicemesh-v2-2-3/redhat/
+namespace: openshift-marketplace
 
 catalogs:
 
