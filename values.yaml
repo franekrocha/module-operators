@@ -17,7 +17,6 @@ catalogs:
 #        namespace: openshift-operators
 
 #  oadp-v1-2-3:
-#    sha: ""
 #    packages:
 #      redhat-oadp-operator:
 #        channel: stable-1.2
