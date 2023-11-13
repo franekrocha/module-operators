@@ -11,6 +11,6 @@ spec:
   installPlanApproval: Automatic
   name: {{ $package }}
   source: {{ $catalog }}
-  sourceNamespace: {{ $.Values.catalogSourceNamespace }}
+  sourceNamespace: {{ $.Values.namespace }}
 {{- end }}
 {{- end }}
