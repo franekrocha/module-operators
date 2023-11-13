@@ -3,7 +3,7 @@ path: artifactory.apps.mirror.sandbox658.opentlc.com/caas-ocp4/olm-4.12/extras
 
 catalogs:
 
-  servicemesh-v2-4-4:
+  servicemesh-v2-2-3:
     packages:
       servicemeshoperator:
         channel: stable
