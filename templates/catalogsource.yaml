@@ -5,6 +5,6 @@ metadata:
   name: {{ $key }}
   namespace: {{ $.Values.namespace }}
 spec:
-  image: {{ $.Values.path }}/{{ $key }}:{{ $.Values.version }}
+  image: {{ $.Values.path }}/registry.redhat.io/redhat/{{ $key }}:latest
   sourceType: grpc
 {{- end }}
