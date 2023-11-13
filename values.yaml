@@ -1,6 +1,5 @@
-version: v4.12
-path: artifactory.apps.mirror.sandbox658.opentlc.com/caas-ocp4/olm-4.12/extras/registry.redhat.io/redhat
 namespace: openshift-marketplace
+path: artifactory.apps.mirror.sandbox658.opentlc.com/caas-ocp4/olm-4.12/extras
 
 catalogs:
 
