@@ -16,8 +16,8 @@ catalogs:
 #        channel: stable
 #        namespace: openshift-operators
 
-#  oadp-v1-2-3:
-#    packages:
-#      redhat-oadp-operator:
-#        channel: stable-1.2
-#        namespace: openshift-adp
+  oadp-v1-2-2:
+    packages:
+      redhat-oadp-operator:
+        channel: stable-1.2
+        namespace: openshift-adp
