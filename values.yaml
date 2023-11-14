@@ -5,7 +5,7 @@ catalogs:
 
   servicemesh-v2-4-4:
     packages:
-      servicemeshoperator:
+      jaeger-product:
         channel: stable
         namespace: openshift-operators
 
