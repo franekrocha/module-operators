@@ -1,4 +1,5 @@
 {{- range $key, $val := $.Values.catalogs }}
+---
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
